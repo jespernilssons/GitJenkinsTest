@@ -8,6 +8,7 @@ namespace GitJenkinsTest
 {
     public class Player
     {
+        //Comment to trigger build on jenkins
         public int currentHitpoints { get; private set; }
 
         public Player(int hitpoints)
